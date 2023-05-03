@@ -4,6 +4,10 @@ body {
   font-family: sans-serif;
 }
 
+h1 {
+  text-align: center;
+}
+
 .text-wrap {
   word-wrap: break-word;
 }
@@ -12,6 +16,12 @@ body {
   overflow-x: scroll;
   min-height: 300px;
   max-width: 100%;
+  background-color: #a8dadc;
+}
+
+button {
+  color: azure;
+  background-color: #e63946;
 }
 
 .ui.grid>.row.bot-army-row {
@@ -21,4 +31,12 @@ body {
 
 .ui.grid {
   padding: 0px 20px;
+
+}
+
+
+
+
+#row {
+  width: 15%;
 }
